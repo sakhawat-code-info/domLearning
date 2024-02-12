@@ -1,4 +1,42 @@
 
+/* ****************************** Comment code ****************************************** */
+
+
+// const postBtn = document.getElementById('postBtn');
+
+// let postCount = 1;
+// postBtn.addEventListener('click', function () {
+//     const textFildValue = document.getElementById('textFild').value;
+//     const postShow = document.getElementById('postShow');
+
+//     const p = document.createElement('p');
+//     p.innerText = postCount + ". " + textFildValue;
+//     postShow.appendChild(p)
+//     postCount++;
+//     document.getElementById('textFild').value = "";
+// })
+
+
+
+/* ****************************** Delete code ****************************************** */
+
+// const deleteBtn = document.getElementById('deleteBtn');
+// const inputFild = document.getElementById('inputFild');
+
+// inputFild.addEventListener('keyup', function (event) {
+//     const inputFild = event.target.value;
+//     if (inputFild === 'delete') {
+//         deleteBtn.removeAttribute('disabled');
+//     } else {
+//         deleteBtn.setAttribute('disabled', true)
+//     }
+// })
+
+// deleteBtn.addEventListener('click', function () {
+//     const hide_this = document.getElementById('hide_this');
+//     hide_this.style.display = 'none';
+// })
+
 
 
 
