@@ -1,4 +1,67 @@
 
+
+const li_container = document.getElementById('li_container');
+
+li_container.addEventListener('click', function (event) {
+    event.target.parentNode.removeChild(event.target);
+})
+
+// const items = document.getElementsByClassName('list_item');
+
+// for (const item of items) {
+//     item.addEventListener('click', function (event) {
+//         event.target.parentNode.removeChild(event.target);
+//     })
+// } this code not work because boubleing tai parent take dorte hobe
+
+const addBtn = document.getElementById('addBtn');
+
+addBtn.addEventListener('click', function () {
+    const li_container = document.getElementById('li_container');
+
+    const li = document.createElement('li');
+    li.innerText = "Brand new li";
+    li.classList.add('list_item');
+    li_container.appendChild(li);
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ****************************** Comment code ****************************************** */
 
 
